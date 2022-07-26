@@ -14,6 +14,7 @@
 		96192C1D289026C900F08A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96192C1B289026C900F08A6E /* Main.storyboard */; };
 		96192C1F289026C900F08A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96192C1E289026C900F08A6E /* Assets.xcassets */; };
 		96192C22289026C900F08A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96192C20289026C900F08A6E /* LaunchScreen.storyboard */; };
+		96192C2A2890395D00F08A6E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96192C292890395D00F08A6E /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		96192C1E289026C900F08A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96192C21289026C900F08A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96192C23289026C900F08A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96192C292890395D00F08A6E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				96192C13289026C900F08A6E /* AppDelegate.swift */,
 				96192C15289026C900F08A6E /* DocumentBrowserViewController.swift */,
+				96192C292890395D00F08A6E /* WelcomeViewController.swift */,
 				96192C17289026C900F08A6E /* DocumentViewController.swift */,
 				96192C19289026C900F08A6E /* Document.swift */,
 				96192C1B289026C900F08A6E /* Main.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96192C1A289026C900F08A6E /* Document.swift in Sources */,
+				96192C2A2890395D00F08A6E /* WelcomeViewController.swift in Sources */,
 				96192C18289026C900F08A6E /* DocumentViewController.swift in Sources */,
 				96192C16289026C900F08A6E /* DocumentBrowserViewController.swift in Sources */,
 				96192C14289026C900F08A6E /* AppDelegate.swift in Sources */,
