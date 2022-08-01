@@ -16,5 +16,6 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         userNameLabel.text = "Hello, " + currectPerson.name
+        tabBarItem.title = "👋"
     }
 }
